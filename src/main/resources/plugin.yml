@@ -1,0 +1,17 @@
+name: BlockRush
+version: 0.1
+main: com.github.blockrush.main.BlockRush
+api-version: 1.17
+authors: [ Floof ]
+website: www.github.com/FloofCat
+commands:
+   opme:
+      description: You get OP!
+      usage: /<command>
+      permission: default
+      permission-message: You don't have <permission>
+   startblockrush:
+      description: Begin the game
+      usage: /<command>
+      permission: BR.ops
+      permission-message: You don't have <permission>
